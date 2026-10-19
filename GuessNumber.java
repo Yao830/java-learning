@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class GuessNumber {
     public static void main(String[] args) {
+//        电脑给出随机数字
         Random rand=new Random();
         int secret =rand.nextInt(100)+1;
         Scanner sc=new Scanner(System.in);

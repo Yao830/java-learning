@@ -1,3 +1,5 @@
+import java.util.Scanner;
+//九九乘法表
 public class MultiplicationTable {
     public static void main(String[] args){
         for(int i=9;i>=1;i--){
